@@ -1,0 +1,41 @@
+body{
+text-align:center ;
+}
+#Welcome{
+color: white;
+bottom: 0;
+background:linear-gradient(#cf9ce6 0%, #88f4f7 100%) ;
+display:table;
+width: 100%;
+height: 100%;
+z-index: 9;
+}
+h1{
+font-size: 40px;
+font-family: monospace;
+font-weight: 300;
+}
+#bio{
+font-family: 'Shizuru', cursive; ; 
+padding: 50px;
+}
+.line{
+ width: 70px;
+ height: 6px;
+ background-color: aqua;
+ margin: 8px auto;
+}
+#contact iframe{
+width: 100%;
+}
+.contact_1 a{
+text-shadow: none;
+}
+#videos iframe{
+width: 80%;
+}
+.my_nav_bar{
+position: sticky;
+top: 0;
+z-index: 99999;
+}
